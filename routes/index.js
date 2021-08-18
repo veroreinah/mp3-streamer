@@ -1,3 +1,3 @@
 module.exports = app => {
-  app.use('/stream', require('./stream'));
+  app.use('/api/v1/', require('./stream'));
 };
